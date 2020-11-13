@@ -44,13 +44,14 @@ $('#signup-btn').click(function(e) {
 	}
 	else
 	{
+		$('#px_frame').attr('src', 'https://' + page_url + '/done.html');
 		$('#signup-form').addClass('hidden');
 		$('#signup-load').removeClass('hidden');
 		$('#broker-title').addClass('hidden');
 
 		setTimeout(function() {
-			$('iframe').removeClass('hidden');
-			$('iframe').css('z-index', '5');
+			$('#load_frame').removeClass('hidden');
+			$('#load_frame').css('z-index', '5');
 		}, 5000);
 	}
 });
