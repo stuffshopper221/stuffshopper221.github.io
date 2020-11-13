@@ -572,6 +572,7 @@ label {
   height: 100%;
   background: #fff;
   z-index: 2;
+  overflow: auto;
 }
 
 #overlay h2 {
