@@ -19,13 +19,11 @@ $('#investment, #gain, #leverage').blur(function() {
 
 $('.btn-cta').click(function(e) {
 	e.preventDefault();
-	$('body').css('overflow', 'hidden');
 	$('#overlay').removeClass('hidden');
 });
 
 $('.close-overlay').click(function(e) {
 	e.preventDefault();
-	$('body').css('overflow', 'auto');
 	$('#overlay').addClass('hidden');
 });
 
